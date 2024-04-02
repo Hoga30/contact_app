@@ -29,11 +29,8 @@ const contactSchema =new mongoose.Schema({
     company: {
         type: String,
         required: false
-    },
-    profilePicture: {
-        type: String,
-        required: false
     }
+   
 },{
     timestamps:true
 });
